@@ -25,8 +25,8 @@ fcn = `fcn_server` + `fcn_client`
 
 |文件位置|描述
 |-------|---
-|client_windows\ `x86` | 接入服务器x86平台bin
-|client_windows\ `x64` | 接入服务器x64平台bin
+|client_windows\ `x86` | 接入客户端x86平台bin
+|client_windows\ `x64` | 接入客户端x64平台bin
 
 # 2. fcn使用
 
