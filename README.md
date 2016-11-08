@@ -11,7 +11,7 @@ fcn = `fcn_server` + `fcn_client`
 
 ## fcn_server
 
-目前支持linux x86 + x64平台，arm平台待支持中
+目前支持linux x86 + x64平台，arm平台待支持中, 下一步考虑添加windows服务器接入支持
 
 |文件位置|描述
 |-------|---
@@ -32,7 +32,9 @@ fcn = `fcn_server` + `fcn_client`
 
 ## 2.1 运行客户服务端
 
-首先配置server.conf配置文件
+首先配置server.conf配置文件, 注意目前测试帐户 `FCN_0000-FCN_9999`, 每个帐户限速100KB/s
+
+请用户随机挑选测试帐户，并且设置自己的唯一服务器名，以防止帐户冲突
 
 |文件位置|描述
 |-------|---
